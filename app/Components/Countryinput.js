@@ -12,33 +12,39 @@ const Countryinput = () => {
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <PhoneInput
         placeholder="Type here....... "
+        // layout="second"
         // defaultValue="0993833"
         containerStyle={[
           {
             backgroundColor: '#fff',
-            height: 70,
+            height: 60,
             width: 300,
             borderRadius: 20,
             borderColor: '#000',
             borderWidth: 2,
             paddingHorizontal: 5,
-            paddingVertical: 5,
+            // paddingVertical: 5,
             overflow: 'hidden',
           },
         ]}
-        disableArrowIcon
+        // disableArrowIcon
         textInputStyle={{
           position: 'absolute',
-          alignSelf: 'center',
+          top: -25,
+          // alignSelf: 'center',
           color: '#000',
+          // backgroundColor: '#000',
+          borderLeftWidth: 1,
+          borderLeftColor: '#000',
           fontFamily: FONTS.MEDIUM,
           fontSize: 16,
           // marginTop: -10,
           // top: 3,
-          bottom: 0,
+          bottom: -5,
           left: 60,
           // marginLeft: 30,
           width: Dimensions.get('screen').width,
+          height: 110,
         }}
         countryPickerButtonStyle={{
           backgroundColor: '#fff',
