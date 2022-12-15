@@ -43,7 +43,7 @@ const Countryinput = () => {
             position: 'absolute',
             zIndex: 1,
             top: 26,
-            left: 114,
+            left: 93,
           }}
           resizeMode={'contain'}
         />
@@ -100,9 +100,10 @@ const Countryinput = () => {
           countryPickerButtonStyle={{
             backgroundColor: 'transparent',
             width: 60,
-            // position: 'absolute',
-            // right: -20,
-            // left: -50,
+            marginHorizontal: -10,
+            position: 'relative',
+            // right: 0,
+            left: 1,
           }}
           // renderDropdownImage={Render()}
         />
